@@ -12,8 +12,7 @@ def area_of_circle(radius):
     return math.pi * radius ** 2
 
 
-def get_nth_fibonacci(n):
-    """Calculate the nth Fibonacci number."""
+def get_nth_fibonacci(n): """Calculate the nth Fibonacci number."""
     if n < 0:
         raise ValueError("n cannot be negative")
     elif n == 0:
